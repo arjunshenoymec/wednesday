@@ -8,6 +8,7 @@ asgiref==3.7.2
 async-timeout==4.0.2
 attrs==23.1.0
 bentoml==1.0.23
+blinker==1.6.2
 build==0.10.0
 cattrs==23.1.2
 certifi==2023.5.7
@@ -30,6 +31,8 @@ distro==1.8.0
 exceptiongroup==1.1.2
 filelock==3.12.2
 filetype==1.2.0
+Flask==2.3.2
+Flask-Cors==4.0.0
 frozenlist==1.4.0
 fs==2.4.16
 fsspec==2023.6.0
@@ -44,6 +47,7 @@ humanfriendly==10.0
 idna==3.4
 importlib-metadata==6.0.1
 inflection==0.5.1
+itsdangerous==2.1.2
 Jinja2==3.1.2
 langchain==0.0.234
 langsmith==0.0.5
@@ -124,9 +128,11 @@ typing-inspect==0.9.0
 typing_extensions==4.7.1
 tzdata==2023.3
 urllib3==1.26.16
+utils==0.1.0
 uvicorn==0.23.0
 watchfiles==0.19.0
 wcwidth==0.2.6
+Werkzeug==2.3.6
 wrapt==1.15.0
 xxhash==3.2.0
 yarl==1.9.2

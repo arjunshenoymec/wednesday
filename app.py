@@ -2,7 +2,11 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS, cross_origin
 from wednesday.agent import ConversationAgent
 
+import logging
+
 app = Flask(__name__)
+
+logging.basicConfig(filename='log.txt', level=logging.INFO)
 CORS(app)
 
 # have to initialise the chat agent outside the function body
